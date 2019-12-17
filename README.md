@@ -58,3 +58,29 @@ For this exercise
 
 https://play.golang.org/p/H65-ebgQsII
 
+
+## Hands-on exercise #5
+
+Building on the code from the previous example
+
+1.  at the package level scope, using the “var” keyword, create a VARIABLE with the IDENTIFIER “y”. The variable should be of the UNDERLYING TYPE of your custom TYPE “x”
+   
+1.  eg: 
+
+![](https://lh3.googleusercontent.com/J4M2ayZRF4TDQG6nKJKSP4Rcgqiv_Q4ZmRRLunYJfkvuZDqprc5ftHkpGNIOsHNXUkDucQ9mGAq-i9IU7Qr6r3V1l8k3erZHdGiq7TEKU5uzYkh-JGR3edSVecFB2IAVOUBpAy-K)
+
+2.  in func main
+	3. this should already be done
+		4. print out the value of the variable “x”
+		5. print out the type of the variable “x”
+		6. assign your own VALUE to the VARIABLE “x” using the “=” OPERATOR
+		7. print out the value of the variable “x”
+	4. now do this
+		5. now use CONVERSION to convert the TYPE of the VALUE stored in “x” to the UNDERLYING TYPE
+			6. then use the “=” operator to ASSIGN that value to “y”
+			7. print out the value stored in “y”
+			8. print out the type of “y”
+    
+https://play.golang.org/p/Mmq6FMYa2f3
+
+
